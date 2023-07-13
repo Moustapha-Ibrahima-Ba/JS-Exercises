@@ -10,14 +10,40 @@
   <body>
     <main>
       <h1>JS Exercises</h1>
-      <div id="underline"></div>
-      <p>Hi and welcome !.</p>
-      <p>
-        I am Moustapha Ibrahima Ba, a computer science engineer student from
-        Senegal. I would like to put here all the JS Exercies that I have. I
-        hope it will interest you so we could maybe turn it into an open source
-        project.
-      </p>
+      <div class="underline"></div>
+      <div class="welcome">
+        <p>Hi and welcome !.</p>
+        <p>
+            I am Moustapha Ibrahima Ba, a computer science engineer student from
+            Senegal. I would like to put here all the JS Exercies that I have. I
+            hope it will interest you so we could maybe turn it into an open source
+            project.
+        </p>
+        <p>
+            Open the console and try the examples that are on the cards OR go check the code.
+        </p>
+       </div>
+      <div class="exercises">
+        <h2>Exercises</h2>
+        <div id="exercises-underline" class="underline"></div>
+        <section class="leap-year">
+          <h3>Leap Year</h3>
+          <p>
+            Write a function that determines if a year is a leap year. <br />
+            Remember that a year is a leap year if it is divisible by 4 but not
+            divisible by 100 unless it is divisible by 400.
+            <ul>
+                <li>isLeap(2008) => true</li>
+                <li>isLeap(1900) => false</li>
+                <li>isLeap(2006) => true</li>
+            </ul>
+          </p>
+          <a href="./js/leapYear.js" target="_blank" rel="noopener noreferrer">See Code</a>
+        </section>
+      </div>
     </main>
+
+    <!-- SCRIPTs-->
+    <script src="./js/leapYear.js"></script>
   </body>
 </html>
