@@ -35,15 +35,20 @@ h1, h2 {
 }
 
 section {
-    width: 50%;
+    width: 45%;
     background-color: #BDCDD6;
     padding: 15px 30px 40px;
     box-sizing: border-box;
     border-radius: 30px;
 }
 
-section ul {
+section ul{
     font-weight: bold;
+}
+
+section ol li {
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 section a {
@@ -61,4 +66,10 @@ section a {
 #exercises-underline {
     height: 6px;
     border-radius: none;
+}
+
+.exercises .sections {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
 }

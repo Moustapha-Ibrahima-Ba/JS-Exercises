@@ -15,7 +15,7 @@
         <p>Hi and welcome !.</p>
         <p>
             I am Moustapha Ibrahima Ba, a computer science engineer student from
-            Senegal. I would like to put here all the JS Exercies that I have. I
+            Senegal. I would like to put here all the JS Exercises that I have. I
             hope it will interest you so we could maybe turn it into an open source
             project.
         </p>
@@ -26,24 +26,64 @@
       <div class="exercises">
         <h2>Exercises</h2>
         <div id="exercises-underline" class="underline"></div>
-        <section class="leap-year">
-          <h3>Leap Year</h3>
-          <p>
-            Write a function that determines if a year is a leap year. <br />
-            Remember that a year is a leap year if it is divisible by 4 but not
-            divisible by 100 unless it is divisible by 400.
-            <ul>
-                <li>isLeap(2008) => true</li>
-                <li>isLeap(1900) => false</li>
-                <li>isLeap(2006) => true</li>
-            </ul>
-          </p>
-          <a href="./js/leapYear.js" target="_blank" rel="noopener noreferrer">See Code</a>
-        </section>
+
+        <div class="sections">
+
+          <!-- leap Year -->
+          <section class="leap-year">
+            <h3>Leap Year</h3>
+            <p>
+              Write a function that determines if a year is a leap year. <br />
+              Remember that a year is a leap year if it is divisible by 4 but not
+              divisible by 100 unless it is divisible by 400.
+              <ul>
+                  <li>isLeap(2008) => true</li>
+                  <li>isLeap(1900) => false</li>
+                  <li>isLeap(2006) => true</li>
+              </ul>
+            </p>
+            <a href="./js/leapYear.js" target="_blank" rel="noopener noreferrer">See Code</a>
+          </section>
+
+          <!-- Dice Rolling -->
+          <section class="dice-rolling">
+            <h3>Dice Rolling</h3>
+            <p>
+              The purpose of this exercise is to create functions to simulate dice rolls. <br>
+              Rolling a die corresponds, from a computer point of view, to drawing a random integer between 1 and 6 inclusive.
+
+              <ol>
+                <li>Question 1</li>
+                <p>
+                  Create a function that simulates rolling two dice and returns the sum. Use this function to display the result of a roll of two dice.
+                </p>
+                <li>Question 2</li>
+                <p>
+                  Create a function that simulates rolling any number of dice given as a parameter. Use this function to display the result of rolling two dice then three dice.
+                </p>
+              </ol>
+
+              <ul>
+                  <li>launch2 => 2, 3 -> 5</li>
+                  <li>launchN(3)
+                    <ol>
+                      <li>Dice1 = 2</li>
+                      <li>Dice2 = 6</li>
+                      <li>Dice3 = 1</li>
+                      <span>The total sum is 9</span>
+                    </ol>
+                  </li>
+              </ul>
+
+              <a href="./js/diceRolling.js" target="_blank" rel="noopener noreferrer">See Code</a>
+            </p>
+          </section>
+        </div>
       </div>
     </main>
 
     <!-- SCRIPTs-->
     <script src="./js/leapYear.js"></script>
+    <script src="./js/diceRolling.js"></script>
   </body>
 </html>
