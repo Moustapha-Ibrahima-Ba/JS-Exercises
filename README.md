@@ -6,6 +6,7 @@ This is a repository where I will put lot of exercises. The plan is to, maybe, t
 - [LeapYear](./js/leapYear.js)
 - [diceRolling](./js/diceRolling.js)
 - [sequenceOfSquares](./js/sequenceOfSquares.js)
+- [product](./js/product.js)
 
 ## Description
 - ### [LeapYear](./js/leapYear.js)( )
@@ -23,3 +24,6 @@ Is a function that displays the sequence of squares up to **N<sup>2</sup>** wher
 In the following example the integer N is equal to **4**: 0 − 1 − 4 − 9 − 16.
 <br>
 it returns all the square until **4<sup>2</sup>**
+
+- ### [product](./js/product.js)( )
+Is a function that calculates and returns the product n1∗(n1+1)∗...∗n2(1≤n1≤ n2) of the integers between n1 and n2 inclusive.
