@@ -4,6 +4,7 @@ This is a repository where I will put lot of exercises. The plan is to, maybe, t
 ## Outline
 
 - [diceRolling](./js/diceRolling.js)
+- [fibonacci](./js/fibonacci.js)
 - [LeapYear](./js/leapYear.js)
 - [nbEvenOdd](./js/nbEvenOdd.js)
 - [product](./js/product.js)
